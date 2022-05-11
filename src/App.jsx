@@ -54,7 +54,7 @@ const App = () => {
       method: "post",
       headers: {
           "Content-Type": "application/json",
-          Authorization: "Bearer ",
+          Authorization: "Bearer |OPENAI TOKEN GOES HERE|",
       },
       data: JSON.stringify(data)
     });
